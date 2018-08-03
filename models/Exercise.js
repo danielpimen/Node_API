@@ -5,7 +5,7 @@
 
  const ExerciseSchema = new Schema({
     id: {
-        type: Schema.Types.ObjectId,
+        type: String,
       },
     admin_note: {
         type: String,
@@ -68,15 +68,6 @@
         type: String,
       },
     video_1: {
-        type: String,
-      },
-    thumbnail_1: {
-        type: String,
-      },
-    thumbnail_2: {
-        type: String,
-      },
-    muscle_group: {
         type: String,
       },
       
